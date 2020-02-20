@@ -1,0 +1,19 @@
+{
+  "name": "APIDashboard",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "mongoose": "^5.9.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
